@@ -1,0 +1,28 @@
+body{
+    background: #222;
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.caja_logo{
+    background: #fff;
+    padding: 20px 0;
+    width:100%; 
+    text-align: center; 
+
+    
+}
+
+footer{
+    color:#fff;
+    text-align: center;
+}
+
+
+@media (max-width: 400px){
+    img{
+        width:80%;
+      }
+}

@@ -1,0 +1,53 @@
+.acordeon{
+    padding: 50px 0;
+    width: 60%;
+    margin:auto;
+
+    @media (max-width:400px) {
+        width:95%;
+        
+    }
+    
+
+    .acordeon__titulo{
+        color: rgba(#fff,.5);
+        background: #111;
+        line-height: 2.8;
+        padding: 0 1em;
+        margin:0;
+        border-bottom: 0.8px solid rgba(#fff,.5);
+        box-shadow: 0 -1px 0 0 #000 inset;
+        cursor: pointer;
+    }
+
+    .acordeon__contenido {
+        display: none;
+        margin: 0;
+        background: rgba(#fff, .7);
+        padding: 1em 1em 1.5em;
+    
+     
+    }   
+
+    .titulo_in{
+        display: block;
+        width:100%;
+        padding: 5px 0;
+        // font-size: 1em;
+        
+
+        a{
+            text-decoration: none;
+            color:#7727a7;
+
+            &:hover{
+                color: white;
+            }
+        }
+    }
+    
+}
+
+
+
+

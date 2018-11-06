@@ -1,0 +1,17 @@
+/* CSS Document */
+
+.wrap {
+		width:80%;
+		height:30rem;
+		margin:0 auto;
+		background-color: steelblue;
+		position:relative;}
+		
+.box{
+	background-color: salmon;
+	width:50%;
+	padding:2em;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);}

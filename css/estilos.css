@@ -1,0 +1,71 @@
+body {
+  background: #222;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.caja_logo {
+  background: #fff;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  img {
+    width: 80%;
+  }
+}
+
+.acordeon {
+  padding: 50px 0;
+  width: 60%;
+  margin: auto;
+}
+
+@media (max-width: 400px) {
+  .acordeon {
+    width: 95%;
+  }
+}
+
+.acordeon .acordeon__titulo {
+  color: rgba(255, 255, 255, 0.5);
+  background: #111;
+  line-height: 2.8;
+  padding: 0 1em;
+  margin: 0;
+  border-bottom: 0.8px solid rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 -1px 0 0 #000 inset;
+          box-shadow: 0 -1px 0 0 #000 inset;
+  cursor: pointer;
+}
+
+.acordeon .acordeon__contenido {
+  display: none;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1em 1em 1.5em;
+}
+
+.acordeon .titulo_in {
+  display: block;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.acordeon .titulo_in a {
+  text-decoration: none;
+  color: #7727a7;
+}
+
+.acordeon .titulo_in a:hover {
+  color: white;
+}
+/*# sourceMappingURL=estilos.css.map */
